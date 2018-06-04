@@ -1,0 +1,247 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+.animate-intop {
+	position: relative;
+	float: right;
+	top: 40px;
+	right: 40px;
+	-webkit-animation-name: animate-intop;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-moz-animation-name: animate-intop;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: ease;
+}
+
+.animate-up {
+	-webkit-animation-name: animate-up;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease;
+	-moz-animation-name: animate-up;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: ease;
+}
+
+.links {
+	position: relative;
+	float: right;
+	top: 40px;
+	right: 40px;
+}
+
+.top_icon {
+	text-decoration: none;
+	opacity: 0.9;
+	padding: 0px 20px;
+}
+
+.plane_top {
+	max-height: 25px;
+}
+
+.medium {
+	position: relative;
+	top:5px;
+}
+
+.linkedin {
+	padding-right: 0px;
+}
+
+.center {
+	text-align: center;
+}
+
+.top {
+	padding-top: 250px;
+	height: 550px;
+	color: #fff;
+}
+
+.logo {
+	opacity: 0.8;
+	margin-bottom: 20px;
+}
+
+.prof_cont {
+	position: absolute;
+}
+
+.profile {
+	position: relative;
+	top: -160px;
+}
+
+.hello {
+	background-color: #fff;
+	padding: 0px 0px 1px 0px;
+	color: #444;
+	top: -100px;
+}
+
+.hey {
+	position: relative;
+	top: -120px;
+}
+
+.hello h2 {
+	color:#222;
+}
+
+.songtrain {
+	color: rgba(255,255,255,0.8);
+	padding-top: 80px; 
+	padding-bottom: 40px;
+	background-color: #222;
+	background: url(../images/station.png) no-repeat center center fixed;
+}
+
+.mindbody {
+	color: rgba(0,0,0.8);
+	padding-top: 80px; 
+	padding-bottom: 40px;
+	background-color: #fff;
+	background: url(../images/downtown.png) no-repeat center center fixed;
+}
+
+.mindbody h2 {
+	color: rgba(0,0,0,0.8);
+}
+
+.mindbody h5 {
+	color: #555;
+}
+
+.tribe {
+	color: rgba(255,255,255,0.8);
+	padding-top: 80px; 
+	padding-bottom: 20px;
+	background-color: rgba(0,0,0,0.6);
+	background: url(../images/wework.jpg) no-repeat center center fixed;
+}
+
+.tribe h5 {
+	color: rgba(255,255,255,0.6);
+}
+
+.button {
+	background-color: rgba(200,200,200,0.6);
+	text-align: center;
+	  border: none;
+	  -moz-border-radius: 21px;
+	  -webkit-border-radius: 21px;
+	  border-radius: 21px;
+	  color: #444;
+	  display: inline-block;
+	  font-size: 15px;
+	  font-weight: bold;
+	  text-decoration: none;
+	  cursor: pointer;
+	  margin-bottom: 20px;
+	  line-height: normal;
+	  padding: 21px 21px;
+	  margin: 8px;
+	  min-width: 140px;
+	  font-family: 'Quattrocento Sans','Lucida Grande' sans-serif;
+	  -moz-font-family: 'Quattrocento Sans','Lucida Grande' sans-serif;
+	  -webkit-font-family: 'Quattrocento Sans','Lucida Grande' sans-serif; 
+	  text-transform: uppercase;
+}
+
+.contact {
+	color: rgba(0,0,0,0.8);
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: rgba(255,255,255,1);
+}
+
+.plane {
+	display: inline-block;
+	max-height: 40px;
+	padding-bottom: 10px;
+}
+
+.touch {
+	text-decoration: none;
+}
+
+@-webkit-keyframes animate-intop {
+	0%{opacity:0; -webkit-transform: translateY(-20px);}
+	100%{opacity:1;-webkit-transform: translateY(0px);}
+
+}
+
+@-webkit-keyframes animate-up {
+	0%{opacity: 0; -webkit-transform: translateY(12px);} 
+	100%{opacity: 1; -webkit-transform: translateY(0px);};
+}
+
+@-moz-keyframes animate-intop {
+	0%{opacity:0; -moz-transform: translateY(-20px);}
+	100%{opacity:1;-moz-transform: translateY(0px);}
+
+}
+
+@-moz-keyframes animate-up {
+	0%{opacity: 0; -moz-transform: translateY(12px);} 
+	100%{opacity: 1; -moz-transform: translateY(0px);};
+}
+
+
+/* #Page Styles
+================================================== */
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
